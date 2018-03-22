@@ -1,0 +1,95 @@
+html,body{font-size:12px; color:#333; -webkit-text-size-adjust:none; outline:0;  font-family:'Hiragino Sans GB','微软雅黑',arial,sans-serif;}
+header,footer,section,aside,nav,hgroup,figure,figcaption{display:block; margin:0; padding:0; border:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,form,fieldset,input,select,textarea,blockquote{padding:0; margin:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+li{ list-style-type:none;}
+img{border:none;}
+input {background: none;border:0;outline: none;}
+textarea{resize:none;}
+em{font-style: normal}
+table{word-wrap:break-word !important; border-collapse:collapse !important;}
+a{color:#333;text-decoration:none;}
+a:hover,a:focus{text-decoration:none;outline: none;}
+p{ word-wrap: break-word; word-break: normal;}
+*{box-sizing: border-box;}
+/*间距定义等*/
+.fl{float:left;}
+.fr{float:right;}
+
+.m0{margin:0 !important;}
+.mt5{margin-top:5px !important;}
+.mt10{margin-top:10px !important;}
+.mt15{margin-top:15px !important;}
+.mt20{margin-top:20px !important;}
+.mt25{margin-top:25px !important;}
+.mr5{margin-right:5px !important;}
+.mr10{margin-right:10px !important;}
+.mr15{margin-right:15px !important;}
+.mr20{margin-right:20px !important;}
+.mr25{margin-right:25px !important;}
+.mb5{margin-bottom:5px !important;}
+.mb10{margin-bottom:10px !important;}
+.mb15{margin-bottom:15px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb25{margin-bottom:25px !important;}
+.ml5{margin-left:5px !important;}
+.ml10{margin-left:10px !important;}
+.ml15{margin-left:15px !important;}
+.ml20{margin-left:20px !important;}
+.ml25{margin-left:25px !important;}
+
+
+.p0{padding:0 !important;}
+.pt5{padding-top:5px !important;}
+.pt10{padding-top:10px !important;}
+.pt15{padding-top:15px !important;}
+.pt20{padding-top:20px !important;}
+.pt25{padding-top:25px !important;}
+.mr5{padding-right:5px !important;}
+.pr10{padding-right:10px !important;}
+.pr15{padding-right:15px !important;}
+.pr20{padding-right:20px !important;}
+.pr25{padding-right:25px !important;}
+.pb0{padding-bottom: 0 !important;}
+.pb5{padding-bottom:5px !important;}
+.pb10{padding-bottom:10px !important;}
+.pb15{padding-bottom:15px !important;}
+.pb20{padding-bottom:20px !important;}
+.pb25{padding-bottom:25px !important;}
+.pl5{padding-left:5px !important;}
+.pl10{padding-left:10px !important;}
+.pl15{padding-left:15px !important;}
+.pl20{padding-left:20px !important;}
+.pl25{padding-left:25px !important;}
+
+.clearfix{zoom:1;}
+.clearfix:after{content:" "; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+.relative{ position: relative; }
+.norelative{ position:inherit!important; }
+.center{text-align: center;}
+.overflow{ overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}/*单行文本的溢出显示省略号*/
+.overflow-d{ display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;}/*多行文本的溢出显示省略号*/
+.overflow-d{ position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
+.overflow-d:after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;background: -webkit-linear-gradient(left, transparent, #fff 55%);background: -o-linear-gradient(right, transparent, #fff 55%);background: -moz-linear-gradient(right, transparent, #fff 55%);background: linear-gradient(to right, transparent, #fff 55%);}
+.border-all{border:1px solid #000;box-shadow: 0 0 1px 1px rgb(23,30,27);}
+/*遮罩层*/
+.mask{display: none;position: fixed;left: 0;right: 0;top: 0;bottom: 0;background: #000;opacity: .5;z-index: 10;}
+/*基础框架*/
+.w01{ margin-left: 1.5%; width: 6.9533%;}
+.w02{ margin-left: 1.5%; width: 15.416%;}
+.w03{ margin-left: 1.5%; width: 23.875%;}
+.w04{ margin-left: 1.5%; width: 32.333%;}
+.w05{ margin-left: 1.5%; width: 40.766%;}
+.w06{ margin-left: 1.5%; width: 49.250%;}
+.w07{ margin-left: 1.5%; width: 57.673%;}
+.w08{ margin-left: 1.5%; width: 66.126%;}
+.w09{ margin-left: 1.5%; width: 74.579%;}
+.w10{ margin-left: 1.5%; width: 83.033%;}
+.w11{ margin-left: 1.5%; width: 91.486%;}
+.w12{ margin-left: 0; width: 100%; }
+.w50{ width: 50%; padding: 15px;}
+.w01,.w02,.w03,.w04,.w05,.w06,.w07,.w08,.w09,.w10,.w11,.w12{ float: left; position: relative;}
+.w01:first-child,.w02:first-child,.w03:first-child,.w04:first-child,.w05:first-child,.w06:first-child,.w07:first-child,.w08:first-child,.w09:first-child,.w10:first-child,.w11:first-child,.w12:first-child{margin-left: 0;}
+
+button,input{outline: none;}
+/*基础框架end*/

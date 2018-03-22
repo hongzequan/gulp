@@ -1,0 +1,13 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "my first gulp-min",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

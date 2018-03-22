@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel='stylesheet' type='text/css' href='http://at.alicdn.com/t/font_512539_dpdvroe7yiqtcsor.css' />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1  onmousedown="$.windowDrag()">速贸通检测系统</h1>
+            <div class="fr hd-menu">
+                <i class="iconfont icon-suoxiao" onclick="$.minimize();"></i>
+                <i class="iconfont icon-guanbi" onclick="$.close();"></i>
+            </div>
+        </div>
+        <div class="leftmenu">
+            <div class="logo-box">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="text-box">
+                <h1 id="companyName"></h1>
+                <ul>
+                    <li class="clearfix">
+                        <strong>账号：</strong>
+                        <span id="userName"></span>
+                    </li>
+                    <li class="clearfix">
+                        <strong>服务商：</strong>
+                        <span id="serverName"></span>
+                    </li>
+                    <li class="clearfix">
+                        <strong>到期时间：</strong>
+                        <span id="lastTime"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <a href="javascript:void(0)" class="aboutUs">关于我们</a>
+                <br>
+                <a href="javascript:void(0)">退出</a>
+            </div>
+        </div>
+        <div class="rightPage">
+            <div class="header-charts clearfix pb0">
+                <div class="w06 charts m0">
+                    <div id="charts" style="position:relative;z-index:1;width: 300px;height: 300px;margin:0 auto;"></div>
+                    <button class="btn" onclick="$.start();">开始</button>
+                    <button class="btn" onclick="$.stop();">停止</button>
+                </div>
+                <div class="w06 radar m0">
+                    <div class="radar-bg">
+                        <div class="scan"></div>
+                        <i class="spot a"></i>
+                        <i class="spot b"></i>
+                        <i class="spot c"></i>
+                        <i class="spot d"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer clearfix">
+                <div class="w06 m0 ping ">
+                    <div class="ping-box"></div>
+                    <div class="tips">同时连接成功后才能开启任务</div>
+                </div>
+                <div class="w06 m0 info">
+                    <strong>任务信息</strong>
+                    <div class="border">
+                        <div class="console">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
